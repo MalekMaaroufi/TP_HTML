@@ -1,0 +1,30 @@
+<!--
+1. Absence de DOCTYPE : le navigateur peut utiliser le mode de compatibilité.
+2. Absence de lang : les lecteurs d'écran ne connaissent pas la langue du document.
+3. Mauvaise fermeture de strong : les balises doivent être correctement imbriquées.
+4. HR dans P : un séparateur thématique ne doit pas être placé dans un paragraphe.
+5. ID dupliqué : chaque identifiant doit être unique.
+6. TITLE sans guillemets : les valeurs contenant plusieurs mots doivent être citées.
+7. Paragraphe après HTML : tout le contenu doit être placé dans BODY.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page à corriger</title>
+    <meta name="description" content="Présentation des informations du Club de Code.">
+    <meta name="author" content="Malek Maaroufi" >
+</head>
+<body>
+    <p>Bienvenue au <strong>club de code.</strong></p>
+    <p>Nos ateliers ont lieu le mercredi de 14h à 17h.</p> <hr>
+    <p id="info">Salle B12</p>
+    <p id="info1">Ouverts à tous les niveaux</p>
+    <p title="horaires du club">Entrée libre</p>
+    <p>Contact :<a href="club@tek-up.tn" ></a><br>Tél : 70 000 000</p>
+    <p>Texte ajouté après la fin du document</p>
+</body>
+</html>
+
